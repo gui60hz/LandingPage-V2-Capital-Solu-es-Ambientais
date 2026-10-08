@@ -1,0 +1,20 @@
+CAPITAL SOLUÇÕES AMBIENTAIS — LANDING PAGE
+
+Abra index.html no navegador ou use Live Server no VS Code.
+
+ARQUIVOS:
+index.html                 Conteúdo e estrutura
+styles.css                 Estilos, cores e responsividade
+script.js                  Menu mobile, destaque da navegação e WhatsApp
+assets/img/hero-floresta.webp       Imagem hero extraída do print de referência
+assets/img/projeto-recursos-hidricos.webp  Imagem ilustrativa
+
+PERSONALIZAÇÃO:
+1) Substitua assets/img/hero-floresta.webp pela fotografia original em alta resolução para melhorar nitidez em telas grandes.
+2) No index.html, procure por "EDITE OS PROJETOS AQUI": troque as fotos, títulos, descrições e categorias. Os projetos exibidos são modelos fictícios, não trabalhos confirmados.
+3) As imagens externas dos projetos são do Unsplash (necessitam internet). Para usar suas próprias, salve na pasta assets/img/ e altere o src correspondente.
+4) Insira a logo oficial: substitua o símbolo SVG na seção .brand do HTML pela tag <img src="assets/img/logo.png" alt="Capital Soluções Ambientais"> (e ajuste seu CSS).
+5) No script.js configure WHATSAPP_NUMBER e WHATSAPP_MESSAGE.
+6) Para publicar no GitHub Pages, envie toda a pasta mantendo os caminhos relativos.
+
+Não há backend, banco de dados ou formulário que armazene mensagens. Os contatos abrem WhatsApp.
